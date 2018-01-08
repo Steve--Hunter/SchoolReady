@@ -73,6 +73,26 @@ class GettingStartedScreen extends React.Component {
           <View>
             <Text>Activity 1</Text>
             <Text></Text>
+            <Button
+              onPress={() => navigate('Activity1Letter', { letter: 'a' })}
+              title="aA"
+            />
+          </View>
+      );
+    }
+  }
+
+  class Activity1LetterScreen extends React.Component {
+    static navigationOptions = ({ navigation }) => ({
+      title: 'Saying the Alphabet',
+    });
+    render() {
+      const { params } = this.props.navigation.state;
+      return (
+          <View>
+            <Text>Saying the Alphabet - {params.letter}</Text>
+            <Text></Text>
+            <Text>Letter name: </Text>
           </View>
       );
     }
@@ -83,6 +103,7 @@ const SchoolReady = StackNavigator({
   GettingStarted: { screen: GettingStartedScreen},
   Contents: { screen: ContentsScreen },
   Activity1: { screen: Activity1Screen },
+  Activity1Letter: { screen: Activity1LetterScreen },
 });
 
 export default class App extends React.Component {
