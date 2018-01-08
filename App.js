@@ -1,6 +1,6 @@
 // SchoolReady - Help your child get ready for school
 // Copyright MaryAnn Hunter, maryann@smtahunter.com
-// Developed by Steve Hunter, steve@smtahunter.com
+// Developed by Steve Hunter,  steve@smtahunter.com
 // See GitHub for ReadMe, https://github.com/Steve--Hunter/SchoolReady
 
 import React from 'react';
