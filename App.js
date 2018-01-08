@@ -8,7 +8,7 @@ import { AppRegistry, StyleSheet, Text, View, Button } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
 import { Sound } from 'react-native-sound' ;
-react-native link react-native-sound; 
+
 
 
 class WelcomeScreen extends React.Component {
