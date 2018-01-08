@@ -30,3 +30,4 @@ Use Expo and USB cable to read the QR code, and select 'a' to run on Android
 
 Additional setup
 - Nuclide (ATOM plugin) for debugging
+- GIFcam for capturing animated GIFs (Activity 1)
