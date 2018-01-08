@@ -21,6 +21,10 @@ class WelcomeScreen extends React.Component {
             onPress={() => navigate('GettingStarted')}
             title="Getting Started"
           />
+          <Button
+            onPress={() => navigate('Contents')}
+            title="Contents"
+          />
         </View>
     );
   }
@@ -40,9 +44,45 @@ class GettingStartedScreen extends React.Component {
     }
   }
 
+  class ContentsScreen extends React.Component {
+    static navigationOptions = {
+      title: 'Contents',
+    };
+    render() {
+      const { navigate } = this.props.navigation;
+      return (
+          <View>
+            <Text>Contents</Text>
+            <Text></Text>
+            <Button
+              onPress={() => navigate('Activity1')}
+              title="Activity 1 - Saying the Alphabet"
+            />
+          </View>
+      );
+    }
+  }
+
+  class Activity1Screen extends React.Component {
+    static navigationOptions = {
+      title: 'Activity 1',
+    };
+    render() {
+      const { navigate } = this.props.navigation;
+      return (
+          <View>
+            <Text>Activity 1</Text>
+            <Text></Text>
+          </View>
+      );
+    }
+  }
+
 const SchoolReady = StackNavigator({
   Welcome: { screen: WelcomeScreen },
   GettingStarted: { screen: GettingStartedScreen},
+  Contents: { screen: ContentsScreen },
+  Activity1: { screen: Activity1Screen },
 });
 
 export default class App extends React.Component {
