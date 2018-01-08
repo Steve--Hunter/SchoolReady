@@ -7,9 +7,6 @@ import React from 'react';
 import { AppRegistry, StyleSheet, Text, View, Button } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
-import { Sound } from 'react-native-sound' ;
-
-
 
 class WelcomeScreen extends React.Component {
   static navigationOptions = {
