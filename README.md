@@ -27,3 +27,6 @@ Start the app:
 Make sure firewall allows Node through for phone on same WiFi
 
 Use Expo and USB cable to read the QR code, and select 'a' to run on Android
+
+Additional setup
+- Nuclide (ATOM plugin) for debugging
