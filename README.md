@@ -24,4 +24,6 @@ Start the app:
  cd <GitHub root>\SchoolReady
  npm start
 
+Make sure firewall allows Node through for phone on same WiFi
+
 Use Expo and USB cable to read the QR code, and select 'a' to run on Android
