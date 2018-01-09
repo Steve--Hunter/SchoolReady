@@ -3,11 +3,13 @@
 // Developed by Steve Hunter,  steve@smtahunter.com
 // See GitHub for ReadMe, https://github.com/Steve--Hunter/SchoolReady
 
-import React from 'react';
+import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Text, View, Button } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
 
+
+// Screens
 class WelcomeScreen extends React.Component {
   static navigationOptions = {
     title: 'Welcome',
@@ -16,7 +18,6 @@ class WelcomeScreen extends React.Component {
     const { navigate } = this.props.navigation;
     return (
         <View>
-        let hello = new Sound('BahBow.mp3', Sound.MAIN_BUNDLE, (error) );
           <Text>SchoolReady</Text>
           <Text>Help your child get ready for school.</Text>
           <Button
