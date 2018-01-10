@@ -29,5 +29,10 @@ Make sure firewall allows Node through for phone on same WiFi
 Use Expo and USB cable to read the QR code, and select 'a' to run on Android
 
 Additional setup
-- Nuclide (ATOM plugin) for debugging
+- Atom:
+  - Nuclide (ATOM plugin) for debugging
+  - ATOM React plugin (https://orktes.github.io/atom-react/), also need to set env variable, see https://stackoverflow.com/questions/26620312/installing-git-in-path-with-github-client-for-windows
+  - language-Babel plugin https://atom.io/packages/language-babel
 - GIFcam for capturing animated GIFs (Activity 1), see http://blog.bahraniapps.com/gifcam/#download
+- React Devtools extension for Chrome https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+- Android Studio for emulator https://developer.android.com/studio/install.html, https://www.youtube.com/watch?v=KRLLjlpy0r4 for help

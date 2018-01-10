@@ -96,7 +96,7 @@ class GettingStartedScreen extends React.Component {
             <Text>Saying the Alphabet - {params.letter}</Text>
             <Text></Text>
             <Text>Letter name: </Text>
-          </View>
+
       );
     }
   }
