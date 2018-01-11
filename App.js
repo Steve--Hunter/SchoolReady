@@ -4,7 +4,7 @@
 // See GitHub for ReadMe, https://github.com/Steve--Hunter/SchoolReady
 
 import React, { Component } from 'react';
-import { AppRegistry, StyleSheet, Text, View, Button } from 'react-native';
+import { AppRegistry, StyleSheet, Text, View, Button, Image } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
 
@@ -17,17 +17,25 @@ class WelcomeScreen extends React.Component {
   render() {
     const { navigate } = this.props.navigation;
     return (
-        <View>
-          <Text>SchoolReady</Text>
-          <Text>Help your child get ready for school.</Text>
-          <Button
-            onPress={() => navigate('GettingStarted')}
-            title="Getting Started"
-          />
-          <Button
-            onPress={() => navigate('Contents')}
-            title="Contents"
-          />
+        <View style={styles.splashpage}>
+
+          <View style={styles.splashimage}>
+            <Image  source={require('./images/WelcomeScreen.png')} />
+          </View>
+
+          <View>
+            <Text>SchoolReady</Text>
+            <Text>Help your child get ready for school.</Text>
+            <Button
+              onPress={() => navigate('GettingStarted')}
+              title="Getting Started"
+            />
+            <Button
+              onPress={() => navigate('Contents')}
+              title="Contents"
+            />
+          </View>
+
         </View>
     );
   }
@@ -104,6 +112,9 @@ class GettingStartedScreen extends React.Component {
             <Text>Saying the Alphabet - {params.letter}</Text>
             <Text></Text>
             <Text>Letter name: </Text>
+            <View>
+              <Image source={require('./images/Activity1DrawLetterA.gif')} />
+            </View>
           </View>
 
 
@@ -150,4 +161,24 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 60,
   },
+  // page layouts
+  splashpage: {
+      flex: 1,
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+  },
+  splashimage: {
+      flex: 1,
+      justifyContent: 'center',
+      width: undefined,
+      height: undefined,
+      resizeMode: 'contain',
+  },
+  splashfooter: {
+      flex: 1,
+      flexDirection: 'column',
+      justifyContent: 'flex-start'
+  },
+
 });
