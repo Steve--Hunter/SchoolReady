@@ -108,16 +108,14 @@ class GettingStartedScreen extends React.Component {
     render() {
       const { params } = this.props.navigation.state;
       return (
-          <View style={styles.container}>
+          <View style={styles.splashpage}>
             <Text>Saying the Alphabet - {params.letter}</Text>
             <Text></Text>
             <Text>Letter name: </Text>
-            <View>
+            <View style={styles.animatedgifletter}>
               <Image source={require('./images/Activity1DrawLetterA.gif')} />
             </View>
           </View>
-
-
       );
     }
   }
@@ -173,12 +171,15 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
       width: undefined,
       height: undefined,
-      resizeMode: 'contain',
+      resizeMode: 'cover'
   },
   splashfooter: {
       flex: 1,
       flexDirection: 'column',
       justifyContent: 'flex-start'
   },
-
+animatedgifletter: {
+    flex: 1,
+    flexDirection: 'column',
+  },
 });
