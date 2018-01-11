@@ -80,6 +80,14 @@ class GettingStartedScreen extends React.Component {
               onPress={() => navigate('Activity1Letter', { letter: 'a' })}
               title="aA"
             />
+            <View style={styles.row}>
+                <View style={[styles.box, styles.boxorange]}>
+                  <Text style={styles.boxtext} onPress={() => navigate('Activity1Letter', { letter: 'a' })}>aA</Text>
+                </View>
+                <View style={[styles.box, styles.boxwhite]}></View>
+                <View style={[styles.box, styles.boxorange]}></View>
+                <View style={[styles.box, styles.boxwhite]}></View>
+            </View>
           </View>
       );
     }
@@ -92,10 +100,12 @@ class GettingStartedScreen extends React.Component {
     render() {
       const { params } = this.props.navigation.state;
       return (
-          <View>
+          <View style={styles.container}>
             <Text>Saying the Alphabet - {params.letter}</Text>
             <Text></Text>
             <Text>Letter name: </Text>
+          </View>
+
 
       );
     }
@@ -116,10 +126,28 @@ export default class App extends React.Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
+  // Boxes
+  row: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center'
-  }
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 10
+  },
+  box: {
+    flex: 1,
+    height: 100,
+    backgroundColor: '#333',
+  },
+  boxwhite: {
+    backgroundColor: 'white'
+  },
+  boxorange: {
+    backgroundColor: 'orange'
+  },
+  // text
+  boxtext: {
+    color: 'black',
+    fontWeight: 'bold',
+    fontSize: 60,
+  },
 });

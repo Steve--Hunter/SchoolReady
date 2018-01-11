@@ -36,3 +36,4 @@ Additional setup
 - GIFcam for capturing animated GIFs (Activity 1), see http://blog.bahraniapps.com/gifcam/#download
 - React Devtools extension for Chrome https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
 - Android Studio for emulator https://developer.android.com/studio/install.html, https://www.youtube.com/watch?v=KRLLjlpy0r4 for help
+- npm install -g exp  ;Create standalone app with  Expo (https://docs.expo.io/versions/latest/guides/building-standalone-apps.html#building-standalone-apps)
