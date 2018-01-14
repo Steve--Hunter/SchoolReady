@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.7.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="80144974ebeb3e122b5e930460f3e490ea3ff8d6">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.7.1_1ea6cf3848435f93e288497a086d7d58bb065abf.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -39,21 +48,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\SchoolReady\react-native-sound\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_f49ec307abad1bd214cc94ac7b5ceb886d7e306c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_7b6a1899ed04f9d0c931e8b2340785eecf85dd27.jar" />
+        sha1="7928ca2aee98dbdd5120ff66393d67402b5b719c">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\SchoolReady-react-native-sound-unspecified_28209bda8100880a92c65011e3e1d4abe1b79c88.jar" />
     </item>
     <item
         is-multidex="false"
@@ -63,15 +63,6 @@
         revision="23.0.1"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
         <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_028dbfdae187d1854f37673c2658b0f8e09e0078.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smtah\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_36adae7d8cb6722a1fac1e587467a8ef6d07da5b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,12 +84,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smtah\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.7.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_f29e2b101910e9f837c11aac911982374cc8deb0.jar" />
+        sha1="e1af258a8c4488e7a1717d2b85cc2cafe77a4f2f">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.7.1_c692cdd883718e55d362a8c4729e1a69def11b90.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,30 +102,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_13dfead6dd7030b9f7528ea8167e00e45f143dbe.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
         <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_1ee7fc5876b9da898d18585553c9de2d0b0eca25.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smtah\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_b98a33339bea0f517f5a92e6f421b1d31d2d55d7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -147,12 +120,102 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\webpsupport\1.7.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_1a13e55ec1f1ebe55a2f8a957c33128b479d3af3.jar" />
+        sha1="1ddc85488fc07ca844f5ceebb1a45e49075c8dfb">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-webpsupport-1.7.1_1d75ed6762fb70eff100f6cf61bf334e0d781416.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.7.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="720ef291601996e9cb0036cd2997425ef3fd48cb">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.7.1_b4841a9dfea88f05eb7fb17e3fef071627de8499.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\animated-base\1.7.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f1d05c99bcbbeb4d8a758b6cfd2fcb783b216ebf">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-animated-base-1.7.1_27e92fdc5f47207eaafb763c556d0ebd83e8a18e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.7.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c0e08929b989e165fce0a2826edf0c8cce224e42">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.7.1_8c1fd4e12ae8e7e552d40e305a20b70310b1eddf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_ce4ca9914babd017181591d6e7d2a4f2004d5c81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\animated-gif\1.7.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b3949978d5c50bc27d8077d67622a3f9a580dee4">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-animated-gif-1.7.1_3e6d3a14bab1eb234a1f3b239f883693b162a6d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\animated-webp\1.7.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="559b999ebdf9fd290c8d334327422220e770e54a">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-animated-webp-1.7.1_7faeb89bd3d80d75b922ab71ba07f8a1d4cd0f23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.7.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cef368ce071d961edb7cf63701f36bc085bacccd">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.7.1_05647fc70be15e1819df0ccac4eef926415cee5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smtah\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_36adae7d8cb6722a1fac1e587467a8ef6d07da5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smtah\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_f29e2b101910e9f837c11aac911982374cc8deb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smtah\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_b98a33339bea0f517f5a92e6f421b1d31d2d55d7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,15 +228,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_05fa56061816f25d4a1ad793cfccba4d73df425b.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.50.3\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -183,12 +237,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jar="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\exploded-aar\com.facebook.fresco\animated-drawable\1.7.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_ce4ca9914babd017181591d6e7d2a4f2004d5c81.jar" />
+        sha1="fdd197e6fa583aa5dabe50453abca3a8211a5bde">
+        <dex dex="C:\Users\smtah\Documents\GitHub\SchoolReady\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-animated-drawable-1.7.1_e2bdcca386451bf8c54a3e1d657fa7b82a124bef.jar" />
     </item>
 
 </items>

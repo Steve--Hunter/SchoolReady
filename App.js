@@ -6,7 +6,9 @@
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Text, View, Button, Image } from 'react-native';
 import { StackNavigator } from 'react-navigation';
+import Sound from 'react-native-sound';
 
+const bahbow = new Sound('bahbow.mp3', Sound.MAIN_BUNDLE);
 
 
 // Screens
@@ -21,6 +23,7 @@ class WelcomeScreen extends React.Component {
 
           <View style={styles.splashimage}>
             <Image  source={require('./images/WelcomeScreen.png')} />
+
           </View>
 
           <View>
