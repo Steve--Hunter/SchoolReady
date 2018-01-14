@@ -11,6 +11,7 @@ import Sound from 'react-native-sound';
 const bahbow = new Sound('bahbow.mp3', Sound.MAIN_BUNDLE);
 
 
+
 // Screens
 class WelcomeScreen extends React.Component {
   static navigationOptions = {
@@ -19,6 +20,7 @@ class WelcomeScreen extends React.Component {
   render() {
     const { navigate } = this.props.navigation;
     return (
+
         <View style={styles.splashpage}>
 
           <View style={styles.splashimage}>
@@ -27,6 +29,7 @@ class WelcomeScreen extends React.Component {
           </View>
 
           <View>
+
             <Text>SchoolReady</Text>
             <Text>Help your child get ready for school.</Text>
             <Button
@@ -34,7 +37,9 @@ class WelcomeScreen extends React.Component {
               title="Getting Started"
             />
             <Button
-              onPress={() => navigate('Contents')}
+              onPress={() => navigate('Contents')
+
+              }
               title="Contents"
             />
           </View>
