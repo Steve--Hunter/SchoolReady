@@ -29,6 +29,7 @@ Make sure firewall allows Node through for phone on same WiFi
 Use Expo and USB cable to read the QR code, and select 'a' to run on Android
 
 Additional setup
+(for Mac, need latest MacOS, 10.9 for GitHub Desktop, Android Studio, Atom)
 - Atom:
   - Nuclide (ATOM plugin) for debugging
   - ATOM React plugin (https://orktes.github.io/atom-react/), also need to set env variable, see https://stackoverflow.com/questions/26620312/installing-git-in-path-with-github-client-for-windows
