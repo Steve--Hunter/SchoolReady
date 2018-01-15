@@ -8,7 +8,8 @@ import { AppRegistry, StyleSheet, Text, View, Button, Image } from 'react-native
 import { StackNavigator } from 'react-navigation';
 import Sound from 'react-native-sound';
 
-const bahbow = new Sound('bahbow.mp3', Sound.MAIN_BUNDLE);
+const sound = new Sound('bahbow.mp3', Sound.MAIN_BUNDLE);
+
 
 
 
@@ -25,7 +26,6 @@ class WelcomeScreen extends React.Component {
 
           <View style={styles.splashimage}>
             <Image  source={require('./images/WelcomeScreen.png')} />
-
           </View>
 
           <View>
@@ -33,12 +33,11 @@ class WelcomeScreen extends React.Component {
             <Text>SchoolReady</Text>
             <Text>Help your child get ready for school.</Text>
             <Button
-              onPress={() => navigate('GettingStarted')}
+              onPress={() => sound.play()}
               title="Getting Started"
             />
             <Button
               onPress={() => navigate('Contents')
-
               }
               title="Contents"
             />

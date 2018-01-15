@@ -39,6 +39,7 @@ Additional setup
 - Android Studio for emulator https://developer.android.com/studio/install.html, https://www.youtube.com/watch?v=KRLLjlpy0r4 for help
 - npm install -g exp  ;Create standalone app with  Expo (https://docs.expo.io/versions/latest/guides/building-standalone-apps.html#building-standalone-apps)
 - npm install react-native-sound --save (https://github.com/zmxv/react-native-sound, need to Eject app https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md, Chocolatey https://chocolatey.org/install)
+- install git (command line) so npm install works on demo projects, see https://git-for-windows.github.io/
 
 Creating Apps
 - TightVNC (to connect to Mac)
